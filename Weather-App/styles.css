@@ -1,0 +1,91 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0d1b2a; 
+  color: #e0e6ed; 
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+
+.card {
+  background-color: #1b263b; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+  padding: 20px 40px;
+  max-width: 400px;
+  width: 100%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color: #e0e6ed;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #415a77; 
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #1e3050; 
+  color: #e0e6ed; 
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #0077ff; 
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #0077ff; 
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005bb5; 
+  opacity: 0.95;
+}
+#error-message {
+  margin-top: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #f8d7da; 
+  background-color: #721c24;
+  border: 1px solid #a71d2a;
+  transition: opacity 0.3s ease;
+}
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+  height: 0;
+  overflow: hidden;
+}
+.card p {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #a1c3d1; 
+}
+
+.card h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #e0e6ed;
+}

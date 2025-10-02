@@ -39,3 +39,5 @@ let min = 70;
 console.log(Math.floor(Math.random() * (max - min + 1)) + min);
 let mydate = new Date();
 console.log(mydate.toDateString()); //months start from zero in javascript when declaredd by a single variable
+
+//they are called by value
